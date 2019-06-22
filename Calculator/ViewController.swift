@@ -115,7 +115,7 @@ class ViewController: UIViewController {
         
         if let buttonPressed = sender.currentTitle {
             
-            if buttonPressed == "." {
+            if buttonPressed == "." {           //preventing entering decimal more than once
                 if text == "" {
                     text = "0"
                 }
